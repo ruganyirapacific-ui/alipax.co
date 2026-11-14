@@ -1,0 +1,16 @@
+# Dépendances Node.js
+node_modules/
+backend/node_modules/
+
+# Fichiers d'environnement (Clés secrètes Supabase)
+.env
+backend/.env
+
+# Base de données SQLite locale (générée dynamiquement)
+*.db
+*.db-journal
+*.db-wal
+
+# Fichiers système et éditeur
+.DS_Store
+.vscode/
