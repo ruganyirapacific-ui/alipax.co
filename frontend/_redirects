@@ -1,0 +1,32 @@
+# Redirections et réécritures d'URLs propres Cloudflare Pages
+
+# Pages publiques
+/a-propos                   /pages/a-propos.html                   200
+/blog                       /pages/blog.html                       200
+/carrieres                  /pages/carrieres.html                  200
+/commander                  /pages/commander.html                  200
+/conditions-generales       /pages/conditions-generales.html       200
+/contact                    /pages/contact.html                    200
+/demarrer-un-projet         /pages/demarrer-un-projet.html         200
+/detail-projet              /pages/detail-projet.html              200
+/equipe                     /pages/equipe.html                     200
+/faq                        /pages/faq.html                        200
+/lecture-article            /pages/lecture-article.html            200
+/maintenance                /pages/maintenance.html                200
+/mentions-legales           /pages/mentions-legales.html           200
+/nos-services               /pages/nos-services.html               200
+/politique-confidentialite  /pages/politique-confidentialite.html  200
+/portfolio                  /pages/portfolio.html                  200
+/projets                    /pages/projets.html                    200
+/suivi-commande             /pages/suivi-commande.html             200
+/tarification               /pages/tarification.html               200
+/technologies               /pages/technologies.html               200
+/temoignages                /pages/temoignages.html                200
+
+# Administration
+/admin                      /admin/tableau-de-bord.html            200
+/admin/connexion            /admin/connexion.html                  200
+/admin/*                    /admin/:splat.html                     200
+
+# Page 404 de repli
+/*                          /pages/404.html                        404
